@@ -16,4 +16,3 @@ class OrdersConfig(AppConfig):
         # Implicitly connect signal handlers decorated with @receiver.
         from orders import signals  # noqa: F401
 
-        ...
