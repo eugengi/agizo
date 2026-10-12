@@ -8,7 +8,6 @@ from orders.services import OrdersSMSService
 class IncompatibleClient:
     """Stub to represent an unexpected client for the Order SMS service."""
 
-    ...
 
 
 @pytest.mark.unit
