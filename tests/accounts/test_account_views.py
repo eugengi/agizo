@@ -55,7 +55,6 @@ class TCustomer(TypedDict):
 class TUserAndCustomer(TUser, TCustomer):
     """Type union structure for a single user and customer data."""
 
-    ...
 
 
 @pytest.fixture
