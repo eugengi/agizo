@@ -1,4 +1,4 @@
-# ruff: noqa: F401, F405
+# ruff: noqa: F401
 """Django `production` settings for config project.
 
 For more information on this file, see
@@ -14,7 +14,7 @@ import dj_database_url
 from dj_database_url import DEFAULT_ENV
 from django.core.exceptions import ImproperlyConfigured
 
-from config.settings.common.base import *  # noqa: F403
+from config.settings.common.base import *
 from config.settings.common.database import DATABASES
 from config.settings.common.security import (
     CSRF_COOKIE_SECURE,
